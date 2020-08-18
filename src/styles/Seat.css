@@ -1,0 +1,43 @@
+.seat{
+ 
+  font-size:25px;
+    cursor: pointer;
+
+}
+
+
+.topSeat{
+    color: white;    
+    display: inline-block;
+    transform: translateX(-44px);
+   
+}
+.bottomSeat{
+    display: inline-block;
+    color:white;
+    transform: translate(-22px,64px);
+}
+.bottomSeat2{
+    display: inline-block;
+    color:white;
+    transform: translateY(92px);
+    
+}
+
+
+.topSeat:hover{
+    transition: 0.25s;
+    color: brown;    
+    
+}
+.bottomSeat2:hover{
+    transition: 0.25s;
+    color: brown;    
+    
+}
+.bottomSeat:hover{
+    transition: 0.25s;
+    color: brown;    
+    
+}
+

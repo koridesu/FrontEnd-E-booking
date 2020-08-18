@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background:#000000;
+    height: 70px;
+}
+.nav-links{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: 20px;
+    font-size: 18px;
+}
+h3{
+    color:bisque;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+
+div[type="box"]{
+ margin: auto;
+ padding-top: 20px;
+}

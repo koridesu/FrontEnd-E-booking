@@ -1,0 +1,12 @@
+.bus{
+   
+    border: 1px solid black;
+    position: relative;
+    background: #b1b5bb;;
+    margin-bottom: 10px;
+    width: 105%;
+    height: 130px;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}

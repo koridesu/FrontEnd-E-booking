@@ -1,0 +1,128 @@
+.Homescreen{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background: #c7c94b;
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     border-radius: 5px;
+     width: 25%;
+     margin-left: 10%;
+     padding-bottom: 15px;
+    padding-top: 10px;
+    }
+.list{
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+.list select{
+    background-color: #f8ecf8;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+    font-size: 18px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    -webkit-appearance:  button;
+    margin-top: 10px;
+}
+
+.datepicker{
+    margin-left: 50px; 
+    margin-top: 10px; 
+}
+
+.datepicker input{
+    background : none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #c285bd;
+    border-radius: 5px;   
+   
+}
+
+.datepicker label{
+  margin-left: 5px;
+}
+
+.confirm{
+    background-color: #e8c6e9;
+    border-radius: 5px;
+    border: 1px solid #c285bd;
+    height: 40px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.confirm:hover{
+    background-color: #d455b9;
+    border: 2px solid #c285bd;
+}
+
+
+.fullscreen
+{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background: #eefbfc;
+    background-image: url('../backround.jpg');
+}
+div[type="backg2"]{ 
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background: #d8f8fa;   
+}
+.busses{
+    float:right;
+    margin-right: 150px;
+}
+.result-label
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 170px;
+    font-size: 25px;
+    position: absolute;
+}
+.result-label .buton {
+    
+    background-color: #e8c6e9;
+    border-radius: 5px;
+    border: 1px solid #c285bd;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+    font-size: medium;
+}
+.result-label .buton:hover{
+    transition: 0.2s;
+    background-color: #c285bd;
+}
+.line{
+    display: "flex";
+    font-size: 12px;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #f8ecf8;
+    width: 105%;
+    padding-top: 1% ;
+    padding-left: 2%;
+}
+.vr {
+   border-right: 1px solid rgb(201, 201, 201) !important;
+
+}
